@@ -1,0 +1,78 @@
+body {
+    background-color: #000;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #ffd700;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.home {
+    background-color: #1c1c1c;
+    padding: 50px 20px;
+}
+
+.birthday-cake {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.message {
+    background-color: #1c1c1c;
+    margin: 20px 0;
+}
+
+.gallery {
+    background-color: #1c1c1c;
+    margin: 20px 0;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffd700;
+}
+
+footer {
+    background-color: #333;
+    color: #ffd700;
+    padding: 10px 0;
+    text-align: center;
+}
